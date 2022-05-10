@@ -61,9 +61,9 @@ def main():
             print(f"Now you have {player} with a total value of {player_value}")
             time.sleep(1)
 
-            #if the score is over 22 he loses
+            #if the score is over 21 he loses
             if player_value > 21:
-                print(f"It looks like you lost the game because your score is over 22.")
+                print(f"It looks like you lost the game because your score is over 21.")
                 return
         elif next.lower() == "stay":
             break
